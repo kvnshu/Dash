@@ -1,0 +1,11 @@
+{
+    "name": "Dash",
+    "description": "Chrome theme to display graphs",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "theme.js"
+    },
+    "permissions": ["storage"],
+    "options_page": "options.html"
+}

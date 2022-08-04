@@ -11,6 +11,6 @@ form1.addEventListener('submit', e => {
     chrome.storage.sync.set({
         "code1": input1.value
     }, () => {
-        console.log('code1 is set to ' + input1.value)
+        alert('code1 is set to ' + input1.value)
     })
 })
